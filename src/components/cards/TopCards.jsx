@@ -10,7 +10,7 @@ const TopCards = () => {
     const recentPosts = allPosts.slice(-3)
     const dispatch = useDispatch()
 
-    const pf = "http://localhost:5000/"
+    const pf = "https://blog-start-backend.herokuapp.com/"
 
     useEffect(() => {
         dispatch(getAllPosts())
