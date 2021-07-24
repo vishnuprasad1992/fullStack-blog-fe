@@ -24,7 +24,7 @@ export const addNewPost = (data) => {
 export const gettingAllPosts = () => {
     return new Promise(async (resolve, reject) => {
         try {
-            const result = await axios.get(getAllPostsURL);
+            const result = await axios.get("https://blog-start-backend.herokuapp.com/getAllPostsURL");
             resolve(result);
         } catch (error) {
             reject(error.message);
@@ -36,7 +36,7 @@ export const gettingAllPosts = () => {
 export const getPost = (id) => {
     return new Promise(async (resolve, reject) => {
         try {
-            const result = await axios.get(getSinglePostsURL + id);
+            const result = await axios.get("https://blog-start-backend.herokuapp.com/getSinglePostsURL" + id);
             resolve(result);
         } catch (error) {
             reject(error.message);
