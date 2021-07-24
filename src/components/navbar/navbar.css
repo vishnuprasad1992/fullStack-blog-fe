@@ -1,0 +1,17 @@
+/* font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'PT Sans', sans-serif; */
+.navbar-font-size{
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+}
+.navbar-color{
+    background-color: rgb(1, 1, 20) !important;
+}
+.wheat{
+    color: wheat !important;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}

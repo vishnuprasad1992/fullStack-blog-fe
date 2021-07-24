@@ -1,0 +1,20 @@
+.recent-img{
+    height: 500px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.recent-para{
+    width: 100%;
+}
+.recent-badge{
+    display: flex;
+    justify-content: space-between;
+}
+.category ul{
+    list-style: none;
+    text-decoration: none;
+}
+.category p{
+    border-bottom: 1px solid lavender;
+}

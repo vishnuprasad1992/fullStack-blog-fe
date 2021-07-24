@@ -1,0 +1,11 @@
+.card-img{
+    height: 350px !important;
+    object-fit: cover;
+}
+.card{
+    border: none;
+    outline: none;
+}
+.card img {
+    opacity: 0.8;
+}

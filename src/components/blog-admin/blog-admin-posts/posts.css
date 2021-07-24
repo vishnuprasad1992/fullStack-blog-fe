@@ -1,0 +1,10 @@
+.post-img{
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: none;
+    background-color: blanchedalmond;
+    display: flex;
+    margin: 0 auto;
+}
