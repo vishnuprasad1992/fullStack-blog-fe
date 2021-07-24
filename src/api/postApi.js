@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 const addPostURL = "/posts/add-post"
-const getAllPostsURL = "/posts/get-all-posts"
-const getSinglePostsURL = "/posts/get-post/"
+// const getAllPostsURL = "/posts/get-all-posts"
+// const getSinglePostsURL = "/posts/get-post/"
 const updatePostURL = "/posts/update-post/"
 
 
