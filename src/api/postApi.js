@@ -11,7 +11,7 @@ export const addNewPost = (data) => {
     return new Promise(async (resolve, reject) => {
         try {
             console.log(data)
-            const result = await axios.post(addPostURL, data)
+            const result = await axios.post("https://blog-start-backend.herokuapp.com/api//posts/add-post", data)
 
             resolve(result);
         } catch (error) {
@@ -24,7 +24,7 @@ export const addNewPost = (data) => {
 export const gettingAllPosts = () => {
     return new Promise(async (resolve, reject) => {
         try {
-            const result = await axios.get("https://blog-start-backend.herokuapp.com/posts/get-all-posts");
+            const result = await axios.get("https://blog-start-backend.herokuapp.com/api/posts/get-all-posts");
             resolve(result);
         } catch (error) {
             reject(error.message);
@@ -36,7 +36,7 @@ export const gettingAllPosts = () => {
 export const getPost = (id) => {
     return new Promise(async (resolve, reject) => {
         try {
-            const result = await axios.get("https://blog-start-backend.herokuapp.com/posts/get-post" + id);
+            const result = await axios.get("https://blog-start-backend.herokuapp.com/api/posts/get-post" + id);
             resolve(result);
         } catch (error) {
             reject(error.message);
