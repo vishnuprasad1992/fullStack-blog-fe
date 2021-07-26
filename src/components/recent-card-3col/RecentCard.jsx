@@ -7,7 +7,7 @@ const RecentCard = () => {
     const hotel = allPosts.filter(post => post.category === "hotels")
     const hotelRecentPosts = hotel.slice(-4)
 
-    const pf = "http://localhost:5000/"
+    const pf = "https://blog-start-backend.herokuapp.com/"
 
     return (
         <div className="container">
