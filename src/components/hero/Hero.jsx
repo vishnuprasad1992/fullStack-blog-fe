@@ -5,7 +5,7 @@ const Hero = () => {
         <div className="container-fluid">
             <div className="row ">
                 <div className="display-3 py-5 d-flex justify-content-center align-items-center bg-light">
-                    Blog
+                    My Blog
                 </div>
             </div>
         </div>
