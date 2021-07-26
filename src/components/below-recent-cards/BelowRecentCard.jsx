@@ -15,7 +15,7 @@ const BelowRecentCard = () => {
     return (
         <div className="container">
             <div className="row mt-5 pb-5">
-                <div className="col-lg-9 col-md-12">
+                <div className="col-lg-9 col-md-12 col-sm-12">
                     <span className="bg-dark text-white p-1">Travel</span>
                     <hr />
                     {recentBirds && recentBirds.map(post => (
