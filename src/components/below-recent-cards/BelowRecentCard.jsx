@@ -25,10 +25,10 @@ const BelowRecentCard = () => {
                                     <i className="fas ms-2 fa-spinner fa-2x fa-spin"></i>
                                 </div>
                                 }
-                                <div className="col-4">
+                                <div className="col-lg-4 col-md-12 col-sm-12">
                                     <img src={pf + post.file.filepath} className="card-img-ht " alt={post.title} />
                                 </div>
-                                <div className="col-8 details">
+                                <div className="col-lg-8 col-md-12 col-sm-12 details">
                                     <p className="badge bg-dark ms-2">{post.category}</p>
                                     <h5 className="card-title">{post.title}</h5>
                                     <p>{post.content}</p>
