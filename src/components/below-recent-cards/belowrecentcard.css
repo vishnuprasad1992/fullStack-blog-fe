@@ -1,7 +1,7 @@
 .card-img-ht{
     height: 250px;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 /* .details{
     width: 100%;
