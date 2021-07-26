@@ -7,7 +7,7 @@ const TopDestination = () => {
     const { allPosts, postIsLoading } = useSelector(state => state.posts);
     const latestPost = allPosts.slice(-6)
 
-    const pf = "http://localhost:5000/"
+    const pf = "https://blog-start-backend.herokuapp.com/"
 
     return (
         <div className="container my-3">
