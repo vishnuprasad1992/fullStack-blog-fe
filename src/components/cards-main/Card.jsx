@@ -9,7 +9,7 @@ const Card = () => {
     const { allPosts, postIsLoading } = useSelector(state => state.posts);
     const hotel = allPosts.filter(post => post.category === "hotels")
     const lastHotelPost = hotel.slice(-1)
-    const pf = "http://localhost:5000/"
+    const pf = "https://blog-start-backend.herokuapp.com/"
 
 
 
