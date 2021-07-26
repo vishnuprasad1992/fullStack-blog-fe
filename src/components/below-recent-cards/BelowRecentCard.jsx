@@ -9,7 +9,7 @@ const BelowRecentCard = () => {
     const birds = allPosts.filter(post => post.category === "birds")
     const recentBirds = birds.slice(-3);
 
-    const pf = "http://localhost:5000/"
+    const pf = "https://blog-start-backend.herokuapp.com/"
 
 
     return (
