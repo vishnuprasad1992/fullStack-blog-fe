@@ -6,3 +6,21 @@
 /* .details{
     width: 100%;
 } */
+
+@media screen and (max-width:991px) and (min-width:480px){
+    .card-img-ht{
+        height: 350px;
+        width: 80%;
+        object-fit:fill;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+}
+@media screen and (max-width:480px){
+    .card-img-ht{
+        height: 300px;
+        width: 100%;
+        object-fit:fill;
+    }
+}
+
